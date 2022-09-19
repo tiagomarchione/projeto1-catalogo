@@ -1,0 +1,759 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a, p{
+    font-family: 'Raleway', sans-serif;
+}
+
+header>nav{
+  padding: 0 !important;
+}
+
+header .cabeçalho{
+    background-color: #581867;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 999;
+    left: 0;
+    top: 0;
+}
+
+header  .menu-completo{
+  margin: 0 auto;
+}
+
+header .logo-header {
+  height: 70px;
+  display: flex;
+}
+
+header  .botao-cabeçalho{
+  background-color: white;
+}
+
+header>nav>div>div>ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+header>nav>div>div>ul>li>a, header>nav>div>div>ul>li>a:visited {
+    padding-top: 17.5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 17.5px;
+    height: 100%;
+    opacity: 1;
+    color: white !important;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    font-size: 16px;
+}
+
+header>nav>div>div>ul>li>a:hover, header>nav>div>div>ul>li>a:active{
+    border-color: #f98dc2;
+    color: #f98dc2 !important;
+    font-weight: 600;
+}
+
+main{
+    width: 100% !important;
+}
+
+main #banner{
+  background: url("../img/máscara-banner.svg") no-repeat 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  height: 100vh;
+  Color: white;
+}
+
+main #banner img{
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 50 px;
+    animation-delay: 0.8s;
+    animation-duration: 2s;
+    animate-repeat: 3;
+}
+
+main #banner .row{
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main #cursos{
+  flex-direction: row;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+main #cursos img{
+    height: 214px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 34px;
+}
+
+main #cursos .row{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main #cursos h5{
+  padding-top: 20px;
+  text-align: left;
+}
+
+main #cursos h4{
+  padding-top: 20px;
+  text-align: center;
+}
+
+main #diferenciais{
+  flex-direction: row;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+main #diferenciais .row{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main #diferenciais h4{
+  padding-top: 20px;
+}
+
+main #diferenciais .mascara-diferenciais{
+  height: 185px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 250px;
+  background: url("../img/máscara-diferenciais.svg") no-repeat;
+  background-position: center center;
+  background-size: 300px;
+  text-align: center;
+  border-radius: 15px;
+  border: solid 2px #f0eaea;
+}
+
+main #diferenciais .titulo-diferenciais{
+  height: 80px;
+  padding: 25px 0px;
+  color: white;
+  font-weight: bold;
+}
+
+main #diferenciais .resumo-diferenciais{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+main #para-quem-e{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+main #para-quem-e img{
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 30 px;
+}
+
+main #para-quem-e .row{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main #para-quem-e h5{
+  margin-top: 30px;
+}
+
+main #professores{
+  flex-direction: row;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+main #professores h4{
+  padding-top: 20px;
+}
+
+
+.carousel-professores .carousel-item h5{
+  color: white;
+  margin: 0 auto;
+}
+
+main #professores .carousel-professores .carousel-indicators{
+  margin: 0rem;
+  padding: 0;
+  align-items:flex-end;
+}
+
+.carousel-professores{
+    height: 50vh;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.carousel-professores .carousel-item img{
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.carousel-professores .carousel-item .carousel-caption{
+    color: #333;
+}
+
+main #depoimentos{
+  flex-direction: row;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+main #depoimentos img{
+    height: 35vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main #depoimentos .row{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+main  #faq  .accordion-item{
+  margin: 20px;
+  border-radius: 15px;
+  border: solid 2px #f0eaea;
+}  
+
+main  #faq  .accordion-item  .accordion-header{
+  border-radius: 15px;
+  font-size: 40px !important;
+}
+
+main .generic-area{
+    width: 100%;
+    display: flex;
+}
+
+main  .generic-area  .titulo-section{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  background: transparent linear-gradient(275deg, #45108A 2%, #3D065F 29%, #12054E 100%, #10054D 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  box-shadow: 0px 0px 20px #00000085;
+  border-radius: 15px;
+  ;
+}
+
+main #titulo-section{
+  margin: 0 auto !important;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+footer{
+    background-color: #581867;
+    width: 100%;
+    text-align: center;
+    height: 58px;
+    z-index: 999;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+}
+
+footer>p{
+  text-align: center;
+  justify-content: center;
+  align-itens: center;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.animacao-voltar{
+  animation: voltar 700ms infinite alternate;
+}
+
+.animacao-avancar{
+  animation: avancar 700ms infinite alternate;
+}
+
+@keyframes voltar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes avancar {
+  from {
+    transform: translateX(10px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* XX-Large */
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.col {
+  float: left;
+}
+
+.col-xxl-1 {
+  width: 8.33%;
+}
+
+.col-xxl-2 {
+  width: 16.66%;
+}
+
+.col-xxl-3 {
+  width: 25%;
+}
+
+.col-xxl-4 {
+  width: 33.33%;
+}
+
+.col-xxl-5 {
+  width: 41.66%;
+}
+
+.col-xxl-6 {
+  width: 50%;
+}
+
+.col-xxl-7 {
+  width: 58.33%;
+}
+
+.col-xxl-8 {
+  width: 66.66%;
+}
+
+.col-xxl-9 {
+  width: 75%;
+}
+
+.col-xxl-10 {
+  width: 83.33%;
+}
+
+.col-xxl-11 {
+  width: 91.66%;
+}
+
+.col-xxl-12 {
+  width: 100%;
+}
+
+/* X-Large */
+@media (max-width: 1399px)
+/* and (min-width: 1200px)  */
+{
+  .col-xl-1 {
+    width: 8.33%;
+  }
+
+  .col-xl-2 {
+    width: 16.66%;
+  }
+
+  .col-xl-3 {
+    width: 25%;
+  }
+
+  .col-xl-4 {
+    width: 33.33%;
+  }
+
+  .col-xl-5 {
+    width: 41.66%;
+  }
+
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  .col-xl-7 {
+    width: 58.33%;
+  }
+
+  .col-xl-8 {
+    width: 66.66%;
+  }
+
+  .col-xl-9 {
+    width: 75%;
+  }
+
+  .col-xl-10 {
+    width: 83.33%;
+  }
+
+  .col-xl-11 {
+    width: 91.66%;
+  }
+
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+/* Large */
+@media (max-width: 1199px) 
+/* and (min-width: 992px)  */
+{
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
+  .col-lg-11 {
+    width: 91.66%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/* Medium */
+@media (max-width: 991px) 
+/* and (min-width: 768px)  */
+{
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-11 {
+    width: 91.66%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  main #professores img, main #professores .carrossel{
+    height: 40vmin;
+  }
+}
+
+/* Small */
+@media (max-width: 767px) 
+/* and (min-width: 576px)  */
+{
+  .col-sm-1 {
+    width: 8.33%;
+  }
+
+  .col-sm-2 {
+    width: 16.66%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    width: 33.33%;
+  }
+
+  .col-sm-5 {
+    width: 41.66%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-7 {
+    width: 58.33%;
+  }
+
+  .col-sm-8 {
+    width: 66.66%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
+  }
+
+  .col-sm-11 {
+    width: 91.66%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  header{
+    height: 60px;
+    width: 100%
+  }
+  
+  header .logo {
+    height: 60px;
+  }
+    
+  main #banner img{
+    height: 230px;
+  }
+
+  main #cursos img{
+    height: 170px;
+  }
+}
+
+/* X-Small */
+@media (max-width: 575px) 
+/* and (min-width: 0)  */
+{
+  .col-xs-1 {
+    width: 8.33%;
+  }
+
+  .col-xs-2 {
+    width: 16.66%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.33%;
+  }
+
+  .col-xs-5 {
+    width: 41.66%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.33%;
+  }
+
+  .col-xs-8 {
+    width: 66.66%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.33%;
+  }
+
+  .col-xs-11 {
+    width: 91.66%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  
+  header{
+    height: 50px;
+    width: 100%;
+  }
+
+  header nav{
+    width: 100%;
+    height: 50px;
+  }
+  
+  header .logo {
+    height: 50px;
+  }
+  
+  header nav > img, header nav > ul{
+    height: 50px;
+  }
+    
+  header nav > ul > li > a{
+    font-size: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  main #banner img{
+    height: 45vmin;
+  }
+
+  main #banner .row{
+    text-align: center;
+    justify-content: center;
+  }
+
+   main #cursos img, main #para-quem-e img, main #depoimentos img{
+    height: 50vmin;
+  }
+}
